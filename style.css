@@ -7,16 +7,17 @@ body{
 .topnav{
     background-color: black;
     align-items: center;
-    justify-items: center;
+    justify-items: auto;
     color:rgb(254, 254, 254);
     font-family: 'Courier New', Courier, monospace;
+   
 }
 
 .main{
 background-color: black;
 border-style:solid;
-border-color: aliceblue;
-border-width: 2px 1px 2px 2px;
+border-color: rgb(171, 216, 255);
+border-width: 2px 2px 2px 2px;
 }
 h1{
     text-align: center;
@@ -31,6 +32,7 @@ h2{
     color: aliceblue;
      font-size: 5rem;
      margin-top: 300px;
+     margin-bottom: 300px;
      text-decoration: none;
 
 }
@@ -40,7 +42,7 @@ h2{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0.5rem;
+    grid-gap: 0.6rem;
     
   }
 
@@ -58,8 +60,8 @@ h2{
     transition:  all 0.4s;
     background-color: rgb(4, 4, 4);
     width: 200px;
-    padding: 1px;
-    border: 2px solid rgb(253, 253, 255);
+    padding: 8px;
+    border: 1px solid rgb(253, 253, 255);
   }
   
   .content:hover {
