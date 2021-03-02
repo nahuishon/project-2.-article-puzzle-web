@@ -17,7 +17,7 @@ body{
     color: #f2f2f2;
     font-family:'Spinnaker', sans-serif;
     padding: 10px;
-    margin-left: 100px;
+    margin-left: 10px;
     text-decoration: none;
     font-size: 22px;
     width: 33.33%; 
@@ -117,14 +117,13 @@ text-decoration: none;
 @media only screen and (max-width: 992px){
 
   .topnav a {
-    float: right;
+    float: center;
     display: block;
     color: #f2f2f2;
     font-family:'Spinnaker', sans-serif;
-    padding: 0px;
     margin-left: 10px;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 17px;
     width: 33.33%; 
     text-align: center; /* If you want the text to be centered */
          }
