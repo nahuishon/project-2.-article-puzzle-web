@@ -20,7 +20,7 @@ body{
     margin-left: 100px;
     text-decoration: none;
     font-size: 23px;
-    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    width: 33.33%; 
     text-align: center; /* If you want the text to be centered */
          }
 
@@ -118,15 +118,12 @@ text-decoration: none;
 
   .topnav a {
     float: right;
-    display: block;
-    color: #f2f2f2;
-    font-family:'Spinnaker', sans-serif;
-    padding: 30px;
-    margin-left: 100px;
-    text-decoration: none;
-    font-size: 23px;
-    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  width: 33.33%; /* three links of equal widths */
+  text-align: center;
          }
         }
   
