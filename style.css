@@ -113,26 +113,58 @@ text-decoration: none;
   margin-top: -0.2rem;
 }
 
-/* Extra small devices (phones, 500px and down) */
-@media only screen and (max-width: 500px) {
-  
-  .topnav a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    font-family:'Spinnaker', sans-serif;
-    padding: 30px;
-    margin-left: 100px;
+/* target only screens up to 992px */
+@media only screen and (max-width: 992px){
+    body{
+    background-color: black;
     text-decoration: none;
-    font-size: 23px;
-    display: block;
-    width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
+     }
+
+    
+    .h2{
+      text-align: center;
+       color: aliceblue;
+       font-size: 80px;
+       margin-top: 200px;
+       margin-bottom: 170px;
+       text-decoration: none;
+        }
+  
+
+  .next a{
+    border: 10px solid #ffffff;
+    color: #ffffff;
+    margin-left: 480px;
+    font-size: 20px;
+    transition:  all 0.4s;
+    background-color: rgb(0, 0, 0);
+    width: 70px;
+    padding: 70px;
+    margin-bottom: 100px;
+    border: 2px solid rgb(253, 253, 255);
+    text-decoration: none;
+  }
+  
+  .next:hover {
+    margin-top: -0.2rem;
+  }
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+  .topnav{
+    margin-bottom: 10px;
+    color: #fc8f8f;
+    text-align: center;
+    padding: 24px 150px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
   }
 
   .h2{
     text-align: center;
-     color: aliceblue;
+     color: rgb(44, 67, 87);
      font-size: 80px;
      margin-top: 200px;
      margin-bottom: 170px;
