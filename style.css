@@ -200,7 +200,7 @@ text-decoration: none;
   .topnav a {
     float: left;
     display: block;
-    width: 33.33%;  /* three links of equal widths */
+    width: 25.33%;  /* three links of equal widths */
     text-align: center; /* If you want the text to be left-aligned on small screens */
   }
 
