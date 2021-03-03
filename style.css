@@ -205,6 +205,40 @@ text-decoration: none;
     text-align: center; /* If you want the text to be left-aligned on small screens */
   }
 
+  .dropdown {
+    float: left;
+    overflow: hidden;
+       }
+       
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 10px;
+    z-index: 1;
+       }
+ 
+   .dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 15px;
+    font-family:'Spinnaker', sans-serif;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-left: 5px;
+       }
+
+    .dropdown-content a:hover {
+      background-color: rgb(255, 255, 255);
+      color: black;
+       }
+       
+    .dropdown:hover .dropdown-content {
+     display: block;
+       }
+
   .h1{
     text-align: center;
      color: aliceblue;
@@ -218,8 +252,8 @@ text-decoration: none;
     text-align: center;
      color: rgb(255, 255, 255);
      font-size: 40px;
-     margin-top: 200px;
-     margin-bottom: 150px;
+     margin-top: 170px;
+     margin-bottom: 30px;
      text-decoration: none;
       }
 
@@ -233,7 +267,8 @@ text-decoration: none;
   background-color: rgb(0, 0, 0);
   width: 30px;
   padding: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 50px;
   border: 2px solid rgb(255, 255, 255);
   text-decoration: none;
   text-align: center;
