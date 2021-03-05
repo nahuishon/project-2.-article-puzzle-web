@@ -263,20 +263,25 @@ main{
      text-decoration: none;
       }
 
+   .next{
+     text-align: center;
+     margin-bottom: 260px;
+     margin-top: 100px;
+      }
 
-.next a {
-  border: 10px solid #f7d5d5;
-  color: #ffffff;
-  align-items: center;
-  font-size: 15px;
-  background-color: rgb(0, 0, 0);
-  width: 30px;
-  padding: 40px;
-  margin-bottom: -0px;
-  margin-top: 100px;
-  border: 2px solid rgb(255, 255, 255);
-  text-decoration: none;
-  text-align: center;
+  .next a {
+   border: 10px solid #f7d5d5;
+   color: #ffffff;
+   align-items: center;
+   font-size: 15px;
+   background-color: rgb(0, 0, 0);
+   width: 30px;
+   transition:  all 0.4s;
+   padding: 40px;
+   margin-top: 100px;
+   border: 2px solid rgb(255, 255, 255);
+   text-decoration: none;
+   text-align: center;
   }
 
 }
