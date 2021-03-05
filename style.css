@@ -163,7 +163,9 @@ text-decoration: none;
      .dropdown:hover .dropdown-content {
       display: block;
         }
-
+main{
+  background-color: #000000;
+}
      .h2{
       text-align: center;
       color: rgb(250, 252, 254);
@@ -237,6 +239,10 @@ text-decoration: none;
        
     .dropdown:hover .dropdown-content {
      display: block;
+       }
+
+       main{
+         background-color: #000000;
        }
 
   .h1{
