@@ -223,7 +223,7 @@ main{
    .dropdown-content a {
     float: none;
     color: rgb(255, 255, 255);
-    padding: 10px 15px;
+    padding: 20px 15px;
     font-size: 15px;
     font-family:'Spinnaker', sans-serif;
     text-decoration: none;
@@ -257,8 +257,8 @@ main{
   .h2{
     text-align: center;
      color: rgb(255, 255, 255);
-     font-size: 40px;
-     margin-top: 170px;
+     font-size: 35px;
+     margin-top: 180px;
      margin-bottom: 30px;
      text-decoration: none;
       }
@@ -274,13 +274,10 @@ main{
   width: 30px;
   padding: 40px;
   margin-bottom: 0px;
-  margin-top: 50px;
+  margin-top: 150px;
   border: 2px solid rgb(255, 255, 255);
   text-decoration: none;
   text-align: center;
-}
-
-.next:hover {
-  margin-top: -0.2rem;
   }
+
 }
