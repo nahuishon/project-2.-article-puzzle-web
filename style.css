@@ -136,14 +136,12 @@ text-decoration: none;
 
       
    
-
-/* Extra small devices (phones, 480px and down) */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 380px) {
   
   .topnav a {
     float: left;
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     width: 13.33%;  /* three links of equal widths */
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
