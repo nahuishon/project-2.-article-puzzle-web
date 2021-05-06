@@ -83,15 +83,6 @@ text-decoration: none;
      margin-top: 50px;
 }
 
-.h2{
-    text-align: center;
-     color: aliceblue;
-     font-size: 80px;
-     font-family: 'Spinnaker', sans-serif;
-     margin-top: 190px;
-     margin-bottom: 200px;
-     text-decoration: none;
-}
 
 .text {
   position: absolute;
@@ -99,8 +90,8 @@ text-decoration: none;
   right: 50%;
   transform: translate(50%,-50%);
   text-transform: uppercase;
-  font-family: verdana;
-  font-size: 1em;
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 2.9em;
   font-weight: 700;
   color: #ffffff;
   text-shadow: 1px 1px 1px #daafaf,
@@ -136,13 +127,13 @@ text-decoration: none;
 
       
    
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 360px) {
   
   .topnav a {
     float: left;
     display: block;
-    font-size: 20px;
-    width: 13.33%;  /* three links of equal widths */
+    font-size: 15px;
+    width: 33.33%;  /* three links of equal widths */
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 
@@ -193,19 +184,10 @@ text-decoration: none;
      margin-top: 50px;
 }
 
-  .h2{
-    text-align: center;
-     color: rgb(255, 255, 255);
-     font-size: 15px;
-     margin-top: 80px;
-     margin-bottom: 10px;
-     text-decoration: none;
-      }
-
       .text{
         margin-top: 30px;
         margin-bottom: 30px;
-        font-size: 50px;
+        font-size: 20px;
       }
 
 
